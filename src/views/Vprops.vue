@@ -7,7 +7,7 @@ export default {
   components: {AParameterComponent},
   data() {
     return {
-      aParentVariable: "1"
+      aParentVariable: 1
     }
   },
   methods: {
@@ -23,6 +23,6 @@ export default {
   <button v-on:click="addOne()">Add one</button>
   <AParameterComponent v-bind:aParameter=aParentVariable></AParameterComponent>
 
-  <AParameterComponent v-bind:aParameter=aParentVariable></AParameterComponent>
+  <AParameterComponent aParameter=StaticParameter></AParameterComponent>
 
 </template>
