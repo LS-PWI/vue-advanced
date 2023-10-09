@@ -10,6 +10,7 @@
       <router-link to="./vmodel">v-model</router-link>
       <router-link to="./von">v-on</router-link>
       <router-link to="./vprops">v-props</router-link>
+      <router-link to="./vfor">v-for</router-link>
     </nav>
     <main>
       <router-view></router-view>

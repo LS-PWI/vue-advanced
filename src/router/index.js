@@ -4,6 +4,7 @@ import Von from "../views/Von.vue";
 import Vprops from "../views/Vprops.vue";
 import Vbind from "../views/Vbind.vue";
 import Vmodel from "../views/Vmodel.vue";
+import VFor from "../views/VFor.vue";
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path: "/vmodel",
         name: "vmodel",
         component: Vmodel
+    },
+    {
+        path: "/vfor",
+        name: "vfor",
+        component: VFor
     }
 ];
 
