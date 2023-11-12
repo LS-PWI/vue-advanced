@@ -3,6 +3,7 @@
 Props are like component constructor parameters
  */
 import AParameterComponent from "../components/AParameterComponent.vue";
+
 export default {
   components: { AParameterComponent },
   data() {

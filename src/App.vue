@@ -1,4 +1,12 @@
-<script setup>
+<script>
+
+export default {
+  data() {
+    return {
+      emperorsName: "Root of evil"
+    }
+  }
+}
 
 </script>
 
@@ -10,6 +18,8 @@
       <router-link to="./von">v-on</router-link>
       <router-link to="./vprops">v-props</router-link>
       <router-link to="./vfor">v-for</router-link>
+      <router-link to="./root">root</router-link>
+      <router-link to="./emitter">emitter</router-link>
     </nav>
     <main>
       <router-view></router-view>

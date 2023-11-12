@@ -5,7 +5,8 @@ import Vprops from "../views/Vprops.vue";
 import Vbind from "../views/Vbind.vue";
 import Vmodel from "../views/Vmodel.vue";
 import VFor from "../views/VFor.vue";
-
+import Root from "../views/Root.vue";
+import Subscriber from "../views/Subscriber.vue";
 const routes = [
     {
         path: "/",
@@ -36,6 +37,16 @@ const routes = [
         path: "/vfor",
         name: "vfor",
         component: VFor
+    },
+    {
+        path: "/root",
+        name: "root",
+        component: Root
+    },
+    {
+        path: "/emitter",
+        name: "emitter",
+        component: Subscriber
     }
 ];
 
