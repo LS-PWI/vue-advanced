@@ -3,7 +3,6 @@
 </script>
 
 <template>
-
   <header>
     <nav>
       <router-link to="./vbind">v-bind</router-link>
@@ -16,7 +15,6 @@
       <router-view></router-view>
     </main>
   </header>
-
 </template>
 
 <style scoped>

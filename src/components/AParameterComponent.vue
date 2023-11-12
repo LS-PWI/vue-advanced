@@ -9,7 +9,5 @@ export default {
 </script>
 
 <template>
-
   <p>The parameter is: {{ aParameter }}</p>
-
 </template>
