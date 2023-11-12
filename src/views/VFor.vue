@@ -33,8 +33,8 @@ export default {
 <template>
   <section class="mx-auto max-w-4xl">
     <ul role="list" class="flex flex-col justify-content-center divide-y divide-gray-100 w-3/5">
-      <ListItem v-for="item in listItems" :key="item.id" :id="item.id" :name="item.name" :description="item.description"
-        :image-url="item.imageUrl">
+      <ListItem v-for="item in listItems" :key=item.id :id=item.id :name=item.name :description=item.description
+        :image-url=item.imageUrl>
       </ListItem>
     </ul>
   </section>

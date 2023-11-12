@@ -23,5 +23,5 @@ export default {
   <button v-on:click="addOne()">Add one</button>
   <AParameterComponent v-bind:aParameter=aParentVariable></AParameterComponent>
 
-  <AParameterComponent aParameter=StaticParameter></AParameterComponent>
+  <AParameterComponent aParameter="StaticParameter"></AParameterComponent>
 </template>
