@@ -24,11 +24,9 @@ export default {
 </script>
 
 <template>
-
   <button v-on:click="changeState()">{{ buttonText }}</button>
 
-  <p v-bind:class="{hidden: isHidden}">This is a text</p>
-
+  <p v-bind:class="{ hidden: isHidden }">This is a text</p>
 </template>
 
 <style scoped>

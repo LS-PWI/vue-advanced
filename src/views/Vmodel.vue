@@ -24,5 +24,4 @@ export default {
   </form>
 
   <button v-on:click="modifyModel()">Modify model through javascript</button>
-
 </template>

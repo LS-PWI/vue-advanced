@@ -4,7 +4,7 @@ Props are like component constructor parameters
  */
 import AParameterComponent from "../components/AParameterComponent.vue";
 export default {
-  components: {AParameterComponent},
+  components: { AParameterComponent },
   data() {
     return {
       aParentVariable: 1
@@ -24,5 +24,4 @@ export default {
   <AParameterComponent v-bind:aParameter=aParentVariable></AParameterComponent>
 
   <AParameterComponent aParameter=StaticParameter></AParameterComponent>
-
 </template>
